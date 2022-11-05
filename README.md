@@ -28,6 +28,14 @@ _(*) You might need to insert a `!` before your command when running terminal co
 ## 2.3. Where can I find the generated caption?
 Please find it in the same folder where you store the audio file. On Google Colab, you can find it in the root folder when generating subtitles for Youtube videos.
 
+## Function references
+- Run this command first to import the package to your working environment before using any functions below `from ur_audio_sub import *`
+
+- `ytSub(link='YOUR_YOUTUBE_URL', model='medium', language='', translate=False, lmt=LMT, basepath=ROOT_DIR)` or `ytSub('YOUR_YOUTUBE_URL')` in short
+- `subGen_path(file_path, model='medium', language='', translate=False)` or `subGen_path('YOUR_FILE_PATH')` in short
+
+- In case of any issue that happens, you can't generate the Youtube Video caption with `ytSub` function; try the `subGen_path` function with the audio file downloaded path to solving that issue. You can also try this terminal command instead `!whisper 'PATH_TO_YOUR_AUDIO_FILE' --model medium`.
+
 # III. APENDICES
 - This package has been built on top of pytube and OpenAI Whisper:
   - [pytube](https://github.com/pytube/pytube) is a genuine, lightweight, dependency-free Python library (and command-line utility) for downloading YouTube videos.
