@@ -1,0 +1,17 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ur_audio_sub"
+description = "Generate text captions for audio files & youtube video using OpenAI Whisper. Multiple languages support."
+version = "0.0.1"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "pytube",
+    "ffmpeg-python"
+]
