@@ -23,6 +23,7 @@ You also need ffmpeg be installed to start generating captions:
 
 ### Google Colab is highly recommended
 Go to the Google Colab menu: Select `Runtime` > `Change runtime type` and make sure that `GPU` has been chosen. You can run this AI model way faster with GPU on Google Colab than the normal CPU or your personal computer.
+
 ![gpu_setting](./src/Google%20Colab%20runtime%20GPU.png)
 
 ## 2.2. How to install this package?
