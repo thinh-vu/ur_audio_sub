@@ -12,10 +12,10 @@
 ## 2.1. First thing first
 ### Install whisper package
 You will need to install OpenAI whisper package from source using pip:
-Let's runt this command in the terminal fist: `!pip install git+https://github.com/openai/whisper.git -q`
+Let's runt this command in the terminal first: `!pip install git+https://github.com/openai/whisper.git -q`
 
 ### Install ffmpeg
-You also need ffmpeg be installed to start generating captions:
+You also need ffmpeg be installed to start generating transcriptions:
 - on Ubuntu or Debian, or Google Colab: `sudo apt update && sudo apt install ffmpeg`
 - on MacOS using [Homebrew](https://brew.sh/): `brew install ffmpeg`
 - on Windows using [Chocolatey](https://chocolatey.org/): `choco install ffmpeg`
