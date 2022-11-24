@@ -10,6 +10,16 @@
 
 # II. REFERENCES
 ## 2.1. First thing first
+You can find the demo Jupiter notebook [here](https://github.com/thinh-vu/ur_audio_sub/blob/main/Demo_transcribe%20audio%20file%20%26%20Youtube%20video%20with%20ur_audio_sub%202022-11-07.ipynb), make a copy and play with this package on Google Colab to generate your first transcription with only 3 steps and 5 lines of code literally.
+
+<details>
+  <summary> Demonstration</summary>
+
+  ![open_in_google_colab](./src/open-notebook-in-google-colab.png)
+
+</details>
+
+
 ### Install whisper package
 You will need to install OpenAI whisper package from source using pip:
 Let's runt this command in the terminal fist: `!pip install git+https://github.com/openai/whisper.git -q`
