@@ -9,32 +9,39 @@
 </div>
 
 # II. REFERENCES
+> You can skip all of these introductions by viewing the [Video demo here](https://www.youtube.com/watch?v=0Tg8WCLnWIQ?utm_source=Github&utm_medium=ur_audio_sub). Let's start generating audio transcription effortlessly.
+
 ## 2.1. First thing first
 You can find the demo Jupiter notebook [here](https://github.com/thinh-vu/ur_audio_sub/blob/main/Demo_transcribe%20audio%20file%20%26%20Youtube%20video%20with%20ur_audio_sub%202022-11-07.ipynb), make a copy and play with this package on Google Colab to generate your first transcription with only 3 steps and 5 lines of code literally.
 
 <details>
   <summary> Demonstration</summary>
 
-  ![open_in_google_colab](./src/open-notebook-in-google-colab.png)
+  ![open_in_google_colab](https://github.com/thinh-vu/ur_audio_sub/blob/main/src/open-notebook-in-google-colab.png?raw=true)
 
 </details>
 
 
 ### Install whisper package
 You will need to install OpenAI whisper package from source using pip:
-Let's runt this command in the terminal first: `!pip install git+https://github.com/openai/whisper.git -q`
+Let's runt this command in the terminal fist: `!pip install git+https://github.com/openai/whisper.git -q`
+
+<details> 
+<summary> Install ffmpeg (optional) </summary>
 
 ### Install ffmpeg
-You also need ffmpeg be installed to start generating transcriptions:
+In case ffmpeg-python doesn't work, you will need ffmpeg be installed separately to start generating captions:
 - on Ubuntu or Debian, or Google Colab: `sudo apt update && sudo apt install ffmpeg`
 - on MacOS using [Homebrew](https://brew.sh/): `brew install ffmpeg`
 - on Windows using [Chocolatey](https://chocolatey.org/): `choco install ffmpeg`
 - on Windows using [Scoop](https://scoop.sh/): `scoop install ffmpeg`
 
+</details>
+
 ### Google Colab is highly recommended
 Go to the Google Colab menu: Select `Runtime` > `Change runtime type` and make sure that `GPU` has been chosen. You can run this AI model way faster with GPU on Google Colab than the normal CPU or your personal computer.
 
-![gpu_setting](./src/Google%20Colab%20runtime%20GPU.png)
+![gpu_setting](https://github.com/thinh-vu/ur_audio_sub/blob/main/src/Google%20Colab%20runtime%20GPU.png?raw=true)
 
 ## 2.2. How to install this package?
 - Using pip to installed pre-builded package on Pypip `pip install ur_audio_sub`

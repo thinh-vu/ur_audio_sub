@@ -2,11 +2,7 @@
 # See LICENSE for details.
 
 __author__ = "Thinh Vu @thinh-vu in GitHub"
-__version__ = "0.0.1"
+__version__ = "0.0.6"
 
+from ur_gadget import *
 from .caption_generator import *
-
-from .util import (
-    lmt_detect,
-    memory_cleaner
-)
